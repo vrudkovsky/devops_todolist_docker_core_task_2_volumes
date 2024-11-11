@@ -24,9 +24,13 @@ docker run -d --name django-app -p 8080:8080 --link mysql-container:mysql-contai
 ### Accessing the Application
 After starting both containers, open your browser and navigate to:
 
-> [http://localhost:8080](http://localhost:8080)
+> [http://0.0.0.0:8080](http://localhost:8080)
 
 
 ### Docker Hub Links
 * [MySQL Image](https://hub.docker.com/r/vpcomtek/mysql-local)
 * [Django Application Image](https://hub.docker.com/r/vpcomtek/todoapp)
+
+
+### Sreenshot
+> ![devops_todolist_docker_core_task_2_volumes.png](devops_todolist_docker_core_task_2_volumes.png)
